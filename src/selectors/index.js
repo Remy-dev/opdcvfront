@@ -38,6 +38,6 @@ export const changeDateTime = (dateFormated) => {
   return step_date;
 };
 
-export const baseUriAPI = 'http://www.opdcvback.com';
+export const baseUriAPI = 'http://hyp-bopdcv.herokuapp.com';
 export const baseUri = 'https://hyp-bopdcv.herokuapp.com';
 export const mercureUri = new URL('http://localhost:3000');
