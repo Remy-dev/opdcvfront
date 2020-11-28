@@ -12,7 +12,7 @@
     "test:watch": "cross-env NODE_PATH=./ mocha --watch --require tests/.setup.js tests/**/*.test.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.11.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
@@ -50,7 +50,7 @@
     "src": "^1.1.2",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^4.1.0",
-    "webpack": "^4.44.2",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.2"
@@ -64,9 +64,9 @@
     "leaflet": "^1.7.1",
     "lodash": "^4.17.20",
     "moment": "^2.29.0",
-    "opencage-api-client": "^0.10.0",
+    "opencage-api-client": "^0.7.1",
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
+    "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-leaflet": "^2.7.0",
     "react-redux": "^7.2.1",
