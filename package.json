@@ -6,7 +6,6 @@
     "node": "12.x"
   },
   "scripts": {
-
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js",
     "clean": "rm -rf dist",
@@ -80,6 +79,6 @@
     "redux-thunk": "^2.3.0",
     "slugify": "^1.4.5",
     "styled-components": "^5.1.1"
-  },
+  }
 
 }
