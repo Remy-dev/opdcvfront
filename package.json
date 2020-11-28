@@ -1,14 +1,9 @@
 {
   "name": "react-modele",
-  "description": "a really cool app",
-  "version": "1.0.0",
-  "engines": {
-    "node": "12.x"
-  },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build:dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.js",
-    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
+    "build:prod": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js",
     "clean": "rm -rf dist",
@@ -75,13 +70,11 @@
     "react-dom": "^16.13.1",
     "react-leaflet": "^2.7.0",
     "react-redux": "^7.2.1",
-    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "redux-form": "^8.3.6",
     "redux-thunk": "^2.3.0",
     "slugify": "^1.4.5",
     "styled-components": "^5.1.1"
-  },
-
+  }
 }
